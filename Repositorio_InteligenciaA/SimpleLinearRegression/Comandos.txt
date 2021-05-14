@@ -1,0 +1,11 @@
+
+javac -cp C:\jade\lib\jade.jar SimpleLinearRegression.java OneShotAgentSLR.java  -d .  -->COMPILAR EL AGENTE
+
+javac .\SimpleLinearRegression.java main.java -d . ->COMPILAR
+
+java -cp . hands.Main 58 --> valor a predecir
+
+
+java jade.Boot -gui simpleAgent:hands.OneShotAgentSLR --> COMPILAR EL AGENTE
+
+
